@@ -7,4 +7,7 @@ The Code Includes:
 - Simple Event to prevent damage
 - Simple command that send the player a message
 - Made a Utils and PlayerCommand class to make writing commands and messages easier.
-- Check the "FirstCommand" class for all commands, aliases, and perms.
+- FirstCommand - Just prints a simple message
+- HealCommand - Heals You
+- FeedCommand - Feeds You
+- HealthBoostCommand - Gives you extra hearts and regen
