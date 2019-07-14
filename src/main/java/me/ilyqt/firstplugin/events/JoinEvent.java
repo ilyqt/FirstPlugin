@@ -33,5 +33,6 @@ public class JoinEvent implements Listener {
 
         it.setItemMeta(m);
         pl.getInventory().addItem(it);
+
     }
 }

@@ -1,6 +1,9 @@
 package me.ilyqt.firstplugin;
 
+import me.ilyqt.firstplugin.commands.FeedCommand;
 import me.ilyqt.firstplugin.commands.FirstCommand;
+import me.ilyqt.firstplugin.commands.HealCommand;
+import me.ilyqt.firstplugin.commands.HealthBoostCommand;
 import me.ilyqt.firstplugin.events.JoinEvent;
 import me.ilyqt.firstplugin.events.DamageEvent;
 import me.ilyqt.firstplugin.utils.Utils;
@@ -19,7 +22,10 @@ public class FirstPlugin extends JavaPlugin {
         getLogger().info(Utils.colorize("&aSuccess! &bFirstPlugin has been enabled."));
 
         registerCommands(
-                new FirstCommand());
+                new FirstCommand(),
+                new FeedCommand(),
+                new HealCommand(),
+                new HealthBoostCommand());
 
         registerEvents(
                 new JoinEvent(),
