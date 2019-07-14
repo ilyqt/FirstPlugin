@@ -2,7 +2,6 @@
 
 FirstPlugin I ever made. I added some stuff onto it recently to make the code a bit cleaner.
 
-The Code Includes:
 - Simple Join Event
 - Simple Event to prevent damage
 - Simple command that send the player a message
