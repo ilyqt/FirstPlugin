@@ -1,0 +1,4 @@
+name: FirstPlugin
+main: me.ilyqt.firstplugin.FirstPlugin
+author: ilyqt (@mars#0001)
+version: 1.0
