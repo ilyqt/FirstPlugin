@@ -15,8 +15,8 @@ import java.util.Arrays;
 public class JoinEvent implements Listener {
 
     @EventHandler
-    public void onJoin(PlayerJoinEvent e) {
-        Player pl = e.getPlayer();
+    public void onJoin(PlayerJoinEvent event) {
+        Player pl = event.getPlayer();
 
         pl.sendMessage(Utils.colorize("&aWelcome to the server!"));
         pl.sendMessage(Utils.colorize("&d&lThis message is brought to you by FirstPlugin by ilyqt."));
