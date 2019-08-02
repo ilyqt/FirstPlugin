@@ -13,9 +13,9 @@ import static org.bukkit.event.EventPriority.HIGHEST;
 public class DamageEvent implements Listener {
 
     @EventHandler(priority = HIGHEST)
-    public void onDamage(EntityDamageEvent e) {
-        if (e.getEntity() instanceof Player) {
-            e.setDamage(0);
+    public void onDamage(EntityDamageEvent event) {
+        if (event.getEntity() instanceof Player) {
+            event.setCancelled(true);  /* You could use event.setDamage(0); but it is ass. */
         }
     }
 }
